@@ -14,12 +14,14 @@ function App() {
   
   const [showPage,setShowPage] = useState(0);
   const [user,setUser] = useState([]);
-  const [usersTemp,setProductsTemp] = useState(user);
+  const [usersTemp,setUsersTemp] = useState(user);
+  
   const createNewUser= (newUserArr)=>{
     debugger;
     user.push(newUserArr)
     setUser ([...user])
     setShowPage(1)
+    setUsersTemp(user)
   }
 
   const showPagelogin= (index)=>{ /*switch page show */
@@ -31,6 +33,7 @@ function App() {
     debugger
     let tempArr = user.filter((val,i) => (i!=index));
     setUser ([...tempArr])
+    setUsersTemp([...tempArr])
   }
 
   const sortUserByAge = (index) => {/*sort users list by age by admin */

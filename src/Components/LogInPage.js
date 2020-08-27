@@ -60,11 +60,13 @@ export default function LogInPage(props) {
                 let temp = product;
                 products.push(temp)
                 setProducts([...products])
+                setProductsTemp([...products])
             }
 
             const removeProductFromProducts = (index) =>{/*remove product from products list*/
                 let temp = products.filter((val,i) => (i!=index));
                 setProducts(temp)
+                setProductsTemp(temp)
             }
 
             const showPagelogin = (index) =>{

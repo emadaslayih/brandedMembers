@@ -6,7 +6,7 @@ export default function Successful(props) {
         <div className="container">
             <div >
             <p className ="p2" >
-            נרשמת בהצחה 
+            נרשמת בהצלחה 
             </p>
             <button className="btn registerBtn" type="button" onClick={()=>{props.showPagelogin(3)}} > כניסה לאתר</button> 
             </div>
