@@ -1,2 +1,0 @@
-# brandedMembers
-branded members website

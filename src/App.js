@@ -1,5 +1,4 @@
 import React , {useState} from 'react';
-import {BrowserRouter as Router,Switch,Route , Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import './Style/Style.css'
@@ -89,13 +88,9 @@ function App() {
     <div  className="App" style={{ background:`url(${background2})`}} >
       <div className="container"  >
       <Title />
-  <Router>
-    <Switch>
       <div className="opening">
       {show()}
       </div>
-    </Switch>
-  </Router>
   </div>
     </div>
   )

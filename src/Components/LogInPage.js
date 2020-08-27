@@ -16,10 +16,10 @@ export default function LogInPage(props) {
     price:'249'},
     {courseName:'קורס שיווק באינסטגרם',
     description:'אינסטגרם הוא כלי חברתי כיפי אך עוצמתי במיוחד, שמאפשר לכם לשווק את העסק שלכם למאות לקוחות חדשים בכל יום! בואו ללמוד איך להגיע ליותר מ-200 מיליון משתמשי אינסטגרם וליצור אסטרטגיות מכירה שיתרגמו את העוקבים שלכם להכנסות.',
-    price:'449'},
+    price:'149'},
     {courseName:' קורס Google Ads. ',
     description:' הלקוחות יראו אתכם כשהם יחפשו עסקים כמו שלכם בחיפוש Google ובמפות Google. אתם משלמים רק על תוצאות, כמו קליקים באתר או שיחות לעסק. ',
-    price:'349'}])
+    price:'289'}])
     const [productsTemp,setProductsTemp] = useState(products);
     const [benefits,setBenefits] = useState([{benefitName:'הטבה בשווי 1000 ₪',benefitDes:'הטבה בשווי 1000 ש"ח לבניית אפליקציה או אתר'},
     {benefitName:'מבצע מיוחד',benefitDes:'בנה אפליקציה או אתר וקבל מאיתנו 2 מהקורסים שלנו בחינם'}]);
